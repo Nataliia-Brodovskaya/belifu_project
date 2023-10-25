@@ -1,0 +1,23 @@
+.button-container {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: 1000;
+}
+
+.sticky-button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: $main-color;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;   
+}
+
+

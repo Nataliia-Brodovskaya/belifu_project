@@ -1,0 +1,21 @@
+.dialogue{
+    margin-top: 60px;
+    &__block{
+        padding: 30px;
+        background:rgba(146,242,255,.15);
+    }
+    &__item{
+        padding: 30px;
+        &-title{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+            color: #0D0D0D;
+        }
+        &-subtitle{
+            margin-top: 20px;
+        }
+    }
+
+}

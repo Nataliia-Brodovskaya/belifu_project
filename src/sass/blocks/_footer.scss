@@ -1,0 +1,66 @@
+.footer-wrapper {
+    margin-top: 50px;
+}
+.footer_links {
+    display: flex;
+    justify-content: center; /* Выравниваем по горизонтали по центру */
+    align-items: center; /* Выравниваем по вертикали по центру */
+    background-color: #ccc;
+}
+
+.footer_links_main {
+    display: flex;
+}
+
+.footer_links_main a {
+    margin-right: 20px;
+    filter: grayscale(100%);
+}
+
+.footer_links_main img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer_additionally {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_additionally_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.footer_img{
+    width: 25px; /* Установите желаемую ширину для ваших изображений */
+    height: 25px; /* Установите желаемую высоту для ваших изображений */
+}
+
+.multiline-text {
+    display: block; /* Устанавливаем элемент <span> как блочный */
+    text-align: center; /* Центрируем текст по горизонтали */
+    font-size: 12px; /* Установите желаемый размер шрифта *//* Установите цвет текста по вашему выбору */
+    word-wrap: break-word;  /* Установите желаемый межстрочный интервал */
+    color: black; /* Установите цвет текста по вашему выбору */
+}
+
+/* Если необходимо добавить стили для подзаголовка, добавьте их здесь */
+
+

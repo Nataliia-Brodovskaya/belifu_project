@@ -1,0 +1,20 @@
+.reviews{
+    margin-top: 40px;
+    &__descr{
+        padding: 30px;
+    }
+    &__item{
+        display: flex;
+        margin-top: 30px;
+    }
+    &_autor{
+        min-width: 100px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__text{
+        margin-left: 30px;
+    }
+}

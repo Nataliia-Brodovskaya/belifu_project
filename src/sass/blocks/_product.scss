@@ -1,0 +1,20 @@
+.product{
+    &__name{
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__price{
+        margin-top: 20px;
+        display: flex;
+        &-new{
+            margin: 0 15px;
+            color: $second-color; 
+        }
+        &-old{
+            text-decoration: line-through;
+        }
+    }
+}

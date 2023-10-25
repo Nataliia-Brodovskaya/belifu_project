@@ -1,0 +1,54 @@
+.advantages{
+    margin-top: 140px;
+    .title{
+        margin-bottom: 30px;
+    }
+    .label{
+        width: 900px;
+        margin: 30px 100px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    &__indications{
+        display: flex;
+        margin-top: 30px;
+    }
+    &__list{
+        list-style-type: none;
+        padding-left: 50px;
+        margin-top: 22px;
+        li{
+            position: relative;
+            margin-bottom: 10px;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 24px;
+            color: #222222;
+            &::before{
+                content: '';
+                display: block;
+                position: absolute;
+                left: -31px;
+                top: 3px;
+                width: 21px;
+                height: 20px;
+                background: url('../logo/check_red.png') center center/cover no-repeat;
+            }
+        }
+    }
+    img{
+        margin-left: 50px;
+    }
+
+}
+.bgc_y{
+    position:absolute;
+    width:50%;
+    height:499px;
+    background:rgba(243,255,222,.35);
+}
+.description__block{
+    max-width: 550px;
+}

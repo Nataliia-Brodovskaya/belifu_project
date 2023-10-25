@@ -1,0 +1,22 @@
+.counter{
+    margin-top: 50px;
+    min-height: 680px;
+    padding: 100px 0 108px 0;
+    background: url('../img/IMG_5403.jpg') center center/cover no-repeat;
+    &__title{
+        margin-top: 40px;
+        font-weight: 300;
+        font-size: 80px;
+        line-height: 42px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    &__subtitle{
+        margin-top: 60px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 42px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+}
