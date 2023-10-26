@@ -7,6 +7,7 @@
     }
     .title{
         margin: 40px 0;
+        color:rgba(39,142,156,.7411764706);
     }
     .label{
         margin-top: 35px;
@@ -20,13 +21,14 @@
     img{
         margin: 0 auto;
         display: block;
+        max-width: 700px;
     }
 }
 .bgc_blue{
     position:absolute;
     right:0;
     width:50vw;
-    height:900px;
+    height:1020px;
     background:rgba(146,242,255,.15);
     z-index:-1
 }

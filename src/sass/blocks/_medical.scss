@@ -11,6 +11,14 @@
         font-size: 18px;
         line-height: 29px;
     }
+    &__label{
+        margin: 30px 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        color:#278e9cbd;
+    }
     &__indications{
         display: flex;
         margin-top: 30px;
@@ -41,5 +49,4 @@
     img{
         margin-left: 50px;
     }
-
 }

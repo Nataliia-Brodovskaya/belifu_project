@@ -1,10 +1,9 @@
 .footer-wrapper {
-    margin-top: 50px;
 }
 .footer_links {
     display: flex;
-    justify-content: center; /* Выравниваем по горизонтали по центру */
-    align-items: center; /* Выравниваем по вертикали по центру */
+    justify-content: center;
+    align-items: center;
     background-color: #ccc;
 }
 
@@ -23,7 +22,7 @@
 }
 
 .footer_additionally {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,18 +48,14 @@
 }
 
 .footer_img{
-    width: 25px; /* Установите желаемую ширину для ваших изображений */
-    height: 25px; /* Установите желаемую высоту для ваших изображений */
+    width: 25px; 
+    height: 25px;
 }
 
 .multiline-text {
-    display: block; /* Устанавливаем элемент <span> как блочный */
-    text-align: center; /* Центрируем текст по горизонтали */
-    font-size: 12px; /* Установите желаемый размер шрифта *//* Установите цвет текста по вашему выбору */
-    word-wrap: break-word;  /* Установите желаемый межстрочный интервал */
-    color: black; /* Установите цвет текста по вашему выбору */
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    word-wrap: break-word; 
+    color: black;
 }
-
-/* Если необходимо добавить стили для подзаголовка, добавьте их здесь */
-
-
