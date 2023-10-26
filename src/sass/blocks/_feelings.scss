@@ -1,0 +1,55 @@
+.feelings {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; 
+    &__row {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%; 
+        max-width: 150px;
+        margin: 10px;
+    }
+    &__circle{
+        margin: 30px 0;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #278e9cbd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &_divider{
+        width: 200px;  
+        height: 2px;
+        background: #278e9cbd;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    .number {
+        font-size: 18px;
+        font-weight: bold;
+        align-items: center;
+    }
+    .description {
+        text-align: center;
+        margin-top: 10px; 
+    }
+    .title {
+        margin: 30px 0;
+        
+    }
+    
+}
+
+
